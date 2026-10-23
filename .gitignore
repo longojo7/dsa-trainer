@@ -147,3 +147,26 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# ---------------------------------------------------------------------------
+# Python (content/tests now; FastAPI backend later)
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# ---------------------------------------------------------------------------
+# Project
+# ---------------------------------------------------------------------------
+# Local databases for saved progress
+*.sqlite3
+*.db
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
